@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchview"
+        android:layout_margin="8dp"
+        android:queryHint="Search"
+        android:elevation="41dp"
+        android:textColor="@color/material_dynamic_neutral60"
+        app:searchIcon="@drawable/goggle"
+        android:background="@drawable/search_shape"
+        android:queryBackground="@color/white"
+        >
+<!--        <ImageView-->
+<!--            android:id="@+id/imageview"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/goggle" />-->
+    </SearchView>
+
+<!--    <WebView-->
+<!--        android:id="@+id/webView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+<!--    </WebView>-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:layout_margin="8dp"
+        >
+    </ListView>
+
+</LinearLayout>
